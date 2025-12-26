@@ -1,0 +1,24 @@
+:root {
+    --primary-color: #333;
+    --accent-color: #007aff;
+    --bg-color: #f4f4f9;
+}
+
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.6; margin: 0; background: var(--bg-color); color: var(--primary-color); }
+    .container { max-width: 800px; margin: 0 auto; padding: 2rem; }
+        
+/* Self-introduction */
+header { text-align: center; padding: 3rem 0; }
+    .profile-pic { width: 120px; height: 120px; border-radius: 50%; object-fit: cover; background: #ddd; margin-bottom: 1rem; }
+        
+/* Link */
+.social-links { display: flex; justify-content: center; gap: 20px; font-size: 1.5rem; margin: 1.5rem 0; }
+.social-links a { color: var(--primary-color); text-decoration: none; transition: 0.3s; }
+.social-links a:hover { color: var(--accent-color); }
+
+/* Portfolio */
+.portfolio-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 2rem; }
+.card { background: white; padding: 1.5rem; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); transition: transform 0.3s; }
+.card:hover { transform: translateY(-5px); }
+.card h3 { margin-top: 0; }
+.btn { display: inline-block; background: var(--accent-color); color: white; padding: 0.5rem 1rem; border-radius: 5px; text-decoration: none; margin-top: 10px; }
