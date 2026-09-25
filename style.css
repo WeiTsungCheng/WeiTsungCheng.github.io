@@ -384,3 +384,22 @@ header h1 {
         transition: none;
     }
 }
+
+
+.featured-project {
+    background: #fffaf3;
+    border-color: #eadfce;
+}
+
+.app-screenshots {
+    background: transparent;
+    scrollbar-color: #b7afa3 #eee7dd;
+}
+
+.portfolio-grid > .card:first-child {
+    background: #f2f7fc;
+}
+
+.portfolio-grid > .card:nth-child(2) {
+    background: #f6f3fc;
+}
