@@ -153,7 +153,7 @@ header h1 {
     gap: 1rem;
     width: 100%;
     padding: 1rem 1rem 1.25rem;
-    background: var(--gallery-bg);
+    background: var(--surface-color);
     border-radius: 0;
 
     overflow-x: auto;
@@ -161,7 +161,7 @@ header h1 {
     scroll-padding-inline: 1rem;
 
     scrollbar-width: thin;
-    scrollbar-color: #8baed6 var(--gallery-bg);
+    scrollbar-color: #a3a3ad #eeeeF2;
 }
 
 .app-screenshot {
@@ -169,7 +169,7 @@ header h1 {
     width: 85%;
     max-width: 280px;
     height: auto;
-    border-radius: 0;
+    border-radius: 12px;
     object-fit: contain;
     scroll-snap-align: start;
 }
